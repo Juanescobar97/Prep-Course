@@ -78,7 +78,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.lenght === str2.lenght;
+return str1.lenght === str2.lenght;
 
 }
 
@@ -154,21 +154,21 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return math.round(num);
+  return Math.round(num);
 
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return math.ceil(num);
+  return Math.ceil(num);
 
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return math.random();
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -247,12 +247,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.lenght > 1){
-    return 'Dato incorrecto'
+    return "Dato incorrecto"
   }
     if(letra === a || letra === e || letra === i || letra == o || letra === u){
-    return 'Es vocal'
+    return "Es vocal"
   }
-  return 'Dato incorrecto'
+  return "Dato incorrecto"
   }
 
 
